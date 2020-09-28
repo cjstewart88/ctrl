@@ -19,7 +19,6 @@ var gatherIntructions = function () {
         var prevX = 0;
         var prevY = 0;
         if (i !== 0) {
-            console.log(i);
             prevX = moves[i][0];
             prevY = moves[i][1];
         }
