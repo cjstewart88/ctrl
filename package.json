@@ -1,0 +1,11 @@
+{
+  "name": "ctrl",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.0.3"
+  }
+}

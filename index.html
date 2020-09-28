@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      textarea {
+        width: 200px;
+        height: 200px;
+      }
+
+      canvas {
+        border: solid 1px black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="600"></canvas><br>
+    <textarea id="instructions">
+rt 100
+dn 50
+rt 200
+dn 500
+rt 400
+up 20
+lt 500
+    </textarea><br>
+    <button id="run">Run</button>
+    <script type="module" src="./dist/index.js"></script>
+  </body>
+</html>
